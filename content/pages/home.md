@@ -1,5 +1,5 @@
 ---
-title: "Tina Cloud Starter"
+title: Tina Cloud Starter
 blocks:
   - headline: Welcome to the Tina Starter
     text: >
@@ -48,3 +48,4 @@ blocks:
     color: tint
     _template: features
 ---
+
