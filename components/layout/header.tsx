@@ -70,7 +70,6 @@ export const Header = ({ data }) => {
                   }}
                   className="inline-block h-auto w-10 mr-1"
                 />{" "}
-                Tina Starter
               </a>
             </Link>
           </h4>
@@ -80,7 +79,7 @@ export const Header = ({ data }) => {
                 const activeItem =
                   item.href === ""
                     ? typeof location !== "undefined" &&
-                      location.pathname == "/"
+                    location.pathname == "/"
                     : windowUrl.includes(item.href);
                 return (
                   <li
@@ -98,9 +97,8 @@ export const Header = ({ data }) => {
           </ul>
         </div>
         <div
-          className={`absolute h-1 bg-gradient-to-r from-transparent ${
-            data.color === "primary" ? `via-white` : `via-black dark:via-white`
-          } to-transparent bottom-0 left-4 right-4 -z-1 opacity-5`}
+          className={`absolute h-1 bg-gradient-to-r from-transparent ${data.color === "primary" ? `via-white` : `via-black dark:via-white`
+            } to-transparent bottom-0 left-4 right-4 -z-1 opacity-5`}
         />
       </Container>
     </div>
