@@ -1,11 +1,11 @@
 {
   "header": {
     "icon": {
-      "color": "orange",
+      "color": "blue",
       "style": "float",
       "name": "code"
     },
-    "color": "default",
+    "color": "primary",
     "nav": [
       {
         "href": "",
