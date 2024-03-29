@@ -9179,10 +9179,10 @@ tinacms@1.5.28:
     yup "^0.32.0"
     zod "^3.14.3"
 
-tinacms@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.6.0.tgz#2296fb8934cb81800590dafc89ffdf08f518706b"
-  integrity sha512-NLxybsPOcSzZ+wYcxx93JXQ/yT5b9gW29AP3hkTyT9rpyoPrtITRFEhJ+Ac7AwkPmKk3dvzuaDga6DCaxvAaKg==
+tinacms@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.6.1.tgz#c8be776198ace6d4f0e00d9a5a185c765616c2f9"
+  integrity sha512-3FddzJqqPUWv3Wt0kNTPIS0EsEvHYMxJPQFUCZiFP1oHj/1atbHmoy89Yr/pHsNHtu2dkzqeph+9wEvPPxI6ew==
   dependencies:
     "@floating-ui/dom" "^1.4.4"
     "@floating-ui/react-dom" "^2.0.1"
